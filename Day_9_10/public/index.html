@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image prediction web app</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+</head>
+<body>
+<main>
+    <div class="container mt-5", style="text-align: center;">
+        <div class="row">
+            <div class="col-4">
+                <h2 class="ml-6">Image</h2>
+                <img id="selected-image" class="ml-3" src="", style="height: 300"; width="300"; />
+            </div>
+            <div class="row">
+            <div class="col-8">
+                <h2 class="ml-3">Predictions</h2>
+                <ol id="prediction-list"></ol>
+            </div>
+        </div>
+        </div>
+    <!-- </div> -->
+        <div class="row">
+        <!-- <div class="row"> -->
+            <div class="col-4">
+                <input id="image-selector" class="form-control border-0" type="file">
+            </div>
+
+            <div class="col-3">
+                <button id="predict-button" class="btn btn-dark float-right">Predict</button>
+            </div>
+
+        <!-- </div> -->
+            <div class="col-12">
+                <div class="progress progress-bar progress-bar-striped progress-bar-animated mb-2">Loading Model</div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+<script src="imagenet_classes.js"></script>
+<script src="predict.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"> </script> -->
+
+</body>
+</html>

@@ -8,7 +8,7 @@ app.use(function(req, res, next){
     next(); //pass
 });
 
-app.use(express.static("../static"));
+app.use(express.static("../public"));
 
 app.listen(8000, function(){
     console.log("Serving static on 8000");

@@ -1,35 +1,47 @@
-# Datasets used in 10DaysMLChallenge 
+This repository contains code for #10DaysMLChallenge from TFUG Mumbai. I've used different machine learning techniques to tackel the different problems. Like I've done Time Series analysis, Regression, Classification, Multiclass Classificcation, Clustering, Text classification and at the end build the web app for Image classification using Tensorflow.js and Flask.
+
+There are alot of things to be updated or need improvment upon. Feel free to fork repository and try it on your own. 
+
+## Tech Stack:
+*   scikit-learn <br>
+*   TensorFlow <br>
+*   TensorFlow.js <br>
+*   Node.js <br>
+*   NLTK    <br>
+
+
+## Datasets used in 10DaysMLChallenge 
 
 ### Day 1:
-> ### <a href="https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Confirmed.csv&filename=time_series_2019-ncov-Confirmed.csv">  Covid 19 Time Series Data  </a>
+- #### <a href="https://data.humdata.org/hxlproxy/api/data-preview.csv?url=https%3A%2F%2Fraw.githubusercontent.com%2FCSSEGISandData%2FCOVID-19%2Fmaster%2Fcsse_covid_19_data%2Fcsse_covid_19_time_series%2Ftime_series_19-covid-Confirmed.csv&filename=time_series_2019-ncov-Confirmed.csv">  Covid 19 Time Series Data  </a>
 
 ### Day 2:
 
-> ### <a href="https://www.kaggle.com/c/titanic/data"> Titanic Dataset</a>
+- #### <a href="https://www.kaggle.com/c/titanic/data"> Titanic Dataset</a>
 
 ### Day 3:
 
-> ### <a href="http://iali.in/datasets/loan_status_train.csv"> Predic Loan Status</a> <br>
-> ### <a href="http://iali.in/datasets/cereal.csv">Predict Rating</a>
+- #### <a href="http://iali.in/datasets/loan_status_train.csv"> Predic Loan Status</a> <br>
+- #### <a href="http://iali.in/datasets/cereal.csv">Predict Rating</a>
 
 ### Day 4:
 
-> ### <a href="https://www.kaggle.com/c/expedia-personalized-sort/data">Personalize Expedia Hotel Searches - ICDM 2013</a>
+- #### <a href="https://www.kaggle.com/c/expedia-personalized-sort/data">Personalize Expedia Hotel Searches - ICDM 2013</a>
 
 ### Day 5:
-> ### <a href="https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip">Dogs Vs Cats</a>
+- #### <a href="https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip">Dogs Vs Cats</a>
 
 ### Day 6:
-> ### <a href="https://www.kaggle.com/zalando-research/fashionmnist">Fashion MNIST</a>
+- #### <a href="https://www.kaggle.com/zalando-research/fashionmnist">Fashion MNIST</a>
 
 
 ### Day 7:
-> ### <a href="https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews"> IMDB Movie Reviews</a>
+- #### <a href="https://www.kaggle.com/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews"> IMDB Movie Reviews</a>
 
 
 ### Day 8:
-> ### <a href="https://www.kaggle.com/dushyantv/consumer_complaints">Consumer Complaint Dataset</a>
+- #### <a href="https://www.kaggle.com/dushyantv/consumer_complaints">Consumer Complaint Dataset</a>
 
 ### Day 9-10:
-> ### Day 9 and 10 was about doing project using TensorFlow.js. Did Image Classifier using TF.js.
-   - ### <a href="https://imageclassification-beabc.web.app/"> Image Classification on browser </a>
+- #### Day 9 and 10 was about doing project using TensorFlow.js. Did Image Classifier using TF.js.
+   - #### <a href="https://imageclassification-beabc.web.app/"> Image Classification on browser </a>
